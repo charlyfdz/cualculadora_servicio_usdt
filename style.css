@@ -118,3 +118,9 @@ input{
     font-weight: bold;
     padding: 40px auto;
 }
+
+
+.checkbox{
+    display: inline-block;
+    padding-left: 20px;
+}
