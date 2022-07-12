@@ -1,0 +1,1 @@
+# Calculadora simple para precios de compra USDT / MXN
