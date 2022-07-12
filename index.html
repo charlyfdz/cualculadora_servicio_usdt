@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MXN a USDT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <head>
+        <div class="header">
+            <a href="https://distbit.io/"><img src="img/logo-dist.svg" alt=""></a>
+            
+        </div>
+        
+        
+    </head>
+
+    <main>
+
+        <div class="contenedor">
+            <h1>Compra USDT</h1>
+
+            <form>
+                
+                <label for="usdt">Monto en USDT que quieres recibir</label>
+                <input class="usdt" type="number" value="10000" name="">
+
+                <label for="cambio">Precio del mercado*</label>
+                <input class="cambio" type="number" disabled name="">
+
+                <label for="spread">spread 3%</label>
+                <input class="spread" type="number" disabled name="">
+                
+                <label for="comision">comision 2%</label>
+                <input class="comision" type="number" disabled name="">
+            </form>
+
+            <p class="result">Total Fiat a depositar en mxn: <span class="mxn">0</span> MXN</p>
+            <p class="result">Total Fiat a depositar en usd: <span class="usd">0</span> USD </p>
+
+        </div>
+    </main>
+
+    <section>
+        <p class="text">* El precio del mercado se obtiene de un promedio de ordenes de compra en el mercado</p>
+    </section>
+
+
+    <footer>
+        <a class="distbit" href="https://distbit.io">Visitar Distbit.io</a>
+        <nav>
+                
+                
+            <ul>
+                <li><a href="https://facebook.com/distbit.io"><img src="img/face.png" alt=""></a></li>
+                <li><a href="https://instagram.com/distbit.io"><img src="img/insta.png" alt=""></a></li>
+                <li><a href="https://twitter.com/Distbit_io"><img src="img/twitter.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

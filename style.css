@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,21,133,1) 35%, rgba(61,27,145,1) 100%);
+}
+
+.header, footer{
+    
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    max-width: 300px;
+    margin: 40px 50px;
+}
+
+nav{
+    display: block;
+}
+
+.distbit{
+    margin: 0 auto;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.distbit:hover{
+    color: aquamarine;
+}
+
+ul{
+  display: inline-block;  
+}
+
+li a img{
+    margin: 0 40px;
+    max-width: 50px;
+}
+
+li a img:hover{
+    color: aqua;
+    width: 3.6rem;
+}
+
+
+ul li{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+main{
+  padding: 0 20px;
+}
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 500px;
+    border: 3px black solid;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 1.6rem;
+}
+
+input{  
+    font-size: 1.8rem;
+    border-radius: 25px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.text{  
+    margin: 0 20px;
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.result{
+    color: black;
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mxn, .usd{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 40px auto;
+}
